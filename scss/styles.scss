@@ -1,18 +1,64 @@
+// Colors
+$Pale_blue: hsl(225, 100%, 94%);
+$Bright_blue: hsl(245, 75%, 52%);
+$Very_pale_blue: hsl(225, 100%, 98%);
+$Desaturated_blue: hsl(224, 23%, 55%);
+$Dark_blue: hsl(223, 47%, 23%);
+
 body {
 	box-sizing: border-box;
-	font-family: "Red Hat Display", sans-serif;
-	background: hsl(224, 23%, 55%) url("../images/pattern-background-desktop.svg");
-	// background-repeat: no-repeat;
+	font-family: "Red Hat Display", sans-serif !important;
+	background: hsl(225, 100%, 94%)
+		url("../images/pattern-background-desktop.svg");
+	background-repeat: repeat-x;
 }
 
 main {
 	min-height: 100vh;
+	// background-repeat: no-repeat;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
 }
 
-h1 {
-	font-weight: 900 !important;
+.col-md-8 {
+	border-radius: 0.5rem !important;
+}
+
+a {
+	color: $Bright_blue;
+}
+
+.panelPlan {
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 0.5rem;
+}
+
+.panelPlan img {
+	background-color: hsl(225, 100%, 94%);
+}
+.card > img {
+	border-radius: 1rem 1rem 0 0 !important;
+}
+.btn1 {
+	background-color: $Bright_blue;
+	color: white;
+}
+
+button {
+	border-radius: 0.5rem !important;
+}
+
+.btn1:hover {
+	color: white;
+	background-color: hsl(245, 84%, 67%);
 }
 
 article {
+	min-width: 21rem !important;
 	border-radius: 1rem !important;
 }
